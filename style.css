@@ -1,0 +1,33 @@
+ 
+ div {background-color: rgb(104, 221, 81);
+
+  }
+#bts {background-color: rgb(229, 220, 54);}
+#bp{background-color: rgb(227, 34, 34);}
+#navbar  {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #bfaeae;
+}
+
+#navbar li {
+  float: left;
+}
+
+#navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navbar li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
